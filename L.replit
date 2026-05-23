@@ -1,0 +1,2 @@
+run = "python3 007.py"
+hidden = ["replit.nix"]
