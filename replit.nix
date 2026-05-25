@@ -1,0 +1,34 @@
+{ pkgs }: {
+  deps = [
+    pkgs.playwright
+    pkgs.nss
+    pkgs.nspr
+    pkgs.atk
+    pkgs.at-spi2-atk
+    pkgs.cups
+    pkgs.libdrm
+    pkgs.libxkbcommon
+    pkgs.mesa
+    pkgs.xorg.libXcomposite
+    pkgs.xorg.libXdamage
+    pkgs.xorg.libXrandr
+    pkgs.xorg.libXtst
+    pkgs.xorg.libXScrnSaver
+    pkgs.xorg.libX11
+    pkgs.xorg.libxcb
+    pkgs.gtk3
+    pkgs.alsa-lib
+    pkgs.dbus
+    pkgs.expat
+    pkgs.fontconfig
+    pkgs.libXrender
+    pkgs.libXfixes
+    pkgs.libXcursor
+    pkgs.libXi
+    pkgs.pango
+    pkgs.cairo
+    pkgs.libGL
+    pkgs.glib
+    pkgs.libxshmfence
+  ];
+}
